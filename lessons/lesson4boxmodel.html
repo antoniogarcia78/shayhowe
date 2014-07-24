@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson 4 - Opening the Box Model</title>
+        <style type="text/css">
+            p {
+                display: inline;
+            }
+            div {
+                border: 6px solid #949599;
+                height: 100px;
+                margin: 20px;
+                padding: 20px;
+                width: 400px; 
+            }
+            span {
+                font-weight: bold;
+                /* height & width no tienen ningun efecto cuando display:inline */
+                height: 100px;
+                widht:200px;
+                /* margin tiene efecto con display: inline solo para left y right */
+                margin:10px;
+                padding:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>First Paragraph</p>
+        <p>Another <span>Paragraph</span><br>
+        The second line of the second paragraph</p>
+        <p>Paragraph Three</p>
+        <div>
+            DIV hidden using CSS
+        </div>
+        <p>Paragraph Four</p>
+    </body>
+</html>

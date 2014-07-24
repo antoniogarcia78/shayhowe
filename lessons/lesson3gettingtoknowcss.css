@@ -1,0 +1,20 @@
+/* lesson3gettingtoknowcss.css */
+.hotdog p { background-color:#800; /* maroon */ }
+.hotdog p.mustard{ background-color:	#ff0; /*yellow */}
+.btn {
+font-size:16px;
+}
+.btn-danger {
+background:red;
+}
+.btn-success{
+background:green;
+}
+boby {
+
+}
+.banner {
+  font-size: 14px;
+  width: 5em; /* Cuando se usa em se calcula en funcion de font-size 14px * 5 = 70 px */
+  background-color: rgba(128, 0, 0, .25);
+}
